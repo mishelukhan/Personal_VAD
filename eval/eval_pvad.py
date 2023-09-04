@@ -12,7 +12,7 @@ from sklearn.metrics import average_precision_score, roc_auc_score, accuracy_sco
 SAMPLE_RATE = 16000
 
 def eval_pvad(pvad, embedder, dataset, embeddings, device, 
-              treshold_model=0.8, update_emb=False, treshold=0.1, averaging_factor = 0.9):
+              treshold_model=0.8, update_emb=False, treshold=0.9, averaging_factor = 0.9):
     frame = 0.655
     y_true = []
     y_pred = []
