@@ -65,7 +65,7 @@ class AMIDataset(Dataset):
             lst = ast.literal_eval(annot.iloc[idx][0])
             if not lst:
                 flag = 0
-            elif random_speaker in lst:
+            elif random_speaker not in lst:
                 flag = 1
             else:
                 flag = 2
