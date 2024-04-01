@@ -1,0 +1,10 @@
+AMITrain/
+AMITest/
+AMIDev/
+AMITrain_extracted/
+AMITest_extracted/
+debug_make_trainpart/
+AMIDev.zip
+AMITest.zip
+AMITrain.zip
+debug_checkpoint.pt
