@@ -11,3 +11,11 @@ debug_checkpoint.pt
 .ipynb_checkpoints/
 AMITrain_extracted.zip
 AMITest_extracted.zip
+**/__pycache__/
+*.ipynb
+*.txt
+*.sh
+checkpoints/
+doc/
+eval_test/
+src/
